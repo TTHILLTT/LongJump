@@ -1,0 +1,30 @@
+Symbol range map extraction starting
+Processing 1 files
+processing com\LongJumpMod\examplemod\LongJumpMod.java
+@|com\LongJumpMod\examplemod\LongJumpMod.java|8|31|com.example.longjumpmod|package|com.example.longjumpmod|(file)
+Class Start: com.example.longjumpmod.LongJumpMod
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|495|499|init|method|com.example.longjumpmod.LongJumpMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|500|522|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|523|528|event|param|com.example.longjumpmod.LongJumpMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|540|554|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|555|564|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|565|573|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onPlayerJump(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|624|636|onPlayerJump|method|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|637|652|LivingJumpEvent|class|net.minecraftforge.event.entity.living.LivingEvent.LivingJumpEvent
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|653|658|event|param|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|674|679|event|param|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|680|692|entityLiving|field|net.minecraftforge.event.entity.living.LivingEvent|entityLiving
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|704|744|net.minecraft.entity.player.EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|847|852|event|param|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|853|865|entityLiving|field|net.minecraftforge.event.entity.living.LivingEvent|entityLiving
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|866|873|motionX|field|net.minecraft.entity.Entity|motionX
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|911|916|event|param|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|917|929|entityLiving|field|net.minecraftforge.event.entity.living.LivingEvent|entityLiving
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|930|937|motionZ|field|net.minecraft.entity.Entity|motionZ
+   Method End: onPlayerJump(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V
+Class End  : com.example.longjumpmod.LongJumpMod
+endProcessing com\LongJumpMod\examplemod\LongJumpMod.java
+
