@@ -1,70 +1,241 @@
 Symbol range map extraction starting
-Processing 1 files
+Processing 3 files
 processing com\LongJumpMod\examplemod\LongJumpMod.java
-@|com\LongJumpMod\examplemod\LongJumpMod.java|8|31|com.example.longjumpmod|package|com.example.longjumpmod|(file)
-Class Start: com.example.longjumpmod.LongJumpMod
-   @|com\LongJumpMod\examplemod\LongJumpMod.java|657|663|Random|class|java.util.Random
-   @|com\LongJumpMod\examplemod\LongJumpMod.java|664|670|RANDOM|field|com.example.longjumpmod.LongJumpMod|RANDOM|
-   @|com\LongJumpMod\examplemod\LongJumpMod.java|677|683|Random|class|java.util.Random
-   @|com\LongJumpMod\examplemod\LongJumpMod.java|707|716|isJumping|field|com.example.longjumpmod.LongJumpMod|isJumping|
-   @|com\LongJumpMod\examplemod\LongJumpMod.java|742|759|accelerationTicks|field|com.example.longjumpmod.LongJumpMod|accelerationTicks|
-   @|com\LongJumpMod\examplemod\LongJumpMod.java|784|808|baseHorizontalMultiplier|field|com.example.longjumpmod.LongJumpMod|baseHorizontalMultiplier|
+@|com\LongJumpMod\examplemod\LongJumpMod.java|8|34|com.LongJumpMod.examplemod|package|com.LongJumpMod.examplemod|(file)
+Class Start: com.LongJumpMod.examplemod.LongJumpMod
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1116|1122|Random|class|java.util.Random
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1123|1129|RANDOM|field|com.LongJumpMod.examplemod.LongJumpMod|RANDOM|
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1136|1142|Random|class|java.util.Random
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1166|1175|isJumping|field|com.LongJumpMod.examplemod.LongJumpMod|isJumping|
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1201|1218|accelerationTicks|field|com.LongJumpMod.examplemod.LongJumpMod|accelerationTicks|
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1243|1267|baseHorizontalMultiplier|field|com.LongJumpMod.examplemod.LongJumpMod|baseHorizontalMultiplier|
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1301|1311|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1312|1322|openGuiKey|field|com.LongJumpMod.examplemod.LongJumpMod|openGuiKey|
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1329|1339|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1348|1356|Keyboard|class|org.lwjgl.input.Keyboard
+   @|com\LongJumpMod\examplemod\LongJumpMod.java|1357|1362|KEY_L|field|org.lwjgl.input.Keyboard|KEY_L
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|851|855|init|method|com.example.longjumpmod.LongJumpMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|856|878|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|879|884|event|param|com.example.longjumpmod.LongJumpMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|896|910|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|911|920|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|921|929|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1420|1424|init|method|com.LongJumpMod.examplemod.LongJumpMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1425|1447|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1448|1453|event|param|com.LongJumpMod.examplemod.LongJumpMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1465|1479|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1480|1489|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1490|1498|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1514|1528|ClientRegistry|class|net.minecraftforge.fml.client.registry.ClientRegistry
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1529|1547|registerKeyBinding|method|net.minecraftforge.fml.client.registry.ClientRegistry|registerKeyBinding|(Lnet/minecraft/client/settings/KeyBinding;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1548|1558|openGuiKey|field|com.LongJumpMod.examplemod.LongJumpMod|openGuiKey
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1578|1587|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1588|1592|init|method|com.LongJumpMod.examplemod.ModConfig|init|(Ljava/io/File;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1597|1601|File|class|java.io.File
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onKeyInput(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1698|1708|onKeyInput|method|com.LongJumpMod.examplemod.LongJumpMod|onKeyInput|(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1709|1733|InputEvent.KeyInputEvent|class|net.minecraftforge.fml.common.gameevent.InputEvent.KeyInputEvent
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1734|1739|event|param|com.LongJumpMod.examplemod.LongJumpMod|onKeyInput|(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1755|1765|openGuiKey|field|com.LongJumpMod.examplemod.LongJumpMod|openGuiKey
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1766|1775|isPressed|method|net.minecraft.client.settings.KeyBinding|isPressed|()Z
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1793|1802|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1803|1815|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1818|1834|displayGuiScreen|method|net.minecraft.client.Minecraft|displayGuiScreen|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1839|1848|ConfigGUI|class|com.LongJumpMod.examplemod.gui.ConfigGUI
+   Method End: onKeyInput(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
    Method Start: onPlayerJump(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|980|992|onPlayerJump|method|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|993|1008|LivingJumpEvent|class|net.minecraftforge.event.entity.living.LivingEvent.LivingJumpEvent
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1009|1014|event|param|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1030|1035|event|param|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1036|1048|entityLiving|field|net.minecraftforge.event.entity.living.LivingEvent|entityLiving
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1060|1072|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1088|1100|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1111|1123|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1125|1130|event|param|com.example.longjumpmod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1131|1143|entityLiving|field|net.minecraftforge.event.entity.living.LivingEvent|entityLiving
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1195|1204|isJumping|field|com.example.longjumpmod.LongJumpMod|isJumping
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1225|1242|accelerationTicks|field|com.example.longjumpmod.LongJumpMod|accelerationTicks
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1308|1332|baseHorizontalMultiplier|field|com.example.longjumpmod.LongJumpMod|baseHorizontalMultiplier
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1341|1347|RANDOM|field|com.example.longjumpmod.LongJumpMod|RANDOM
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1348|1358|nextDouble|method|java.util.Random|nextDouble|()D
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1457|1463|RANDOM|field|com.example.longjumpmod.LongJumpMod|RANDOM
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1464|1474|nextDouble|method|java.util.Random|nextDouble|()D
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1510|1517|motionY|field|net.minecraft.entity.Entity|motionY
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1929|1941|onPlayerJump|method|com.LongJumpMod.examplemod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1942|1957|LivingJumpEvent|class|net.minecraftforge.event.entity.living.LivingEvent.LivingJumpEvent
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1958|1963|event|param|com.LongJumpMod.examplemod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1979|1984|event|param|com.LongJumpMod.examplemod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|1985|1997|entityLiving|field|net.minecraftforge.event.entity.living.LivingEvent|entityLiving
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2009|2021|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2037|2049|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2060|2072|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2074|2079|event|param|com.LongJumpMod.examplemod.LongJumpMod|onPlayerJump|(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2080|2092|entityLiving|field|net.minecraftforge.event.entity.living.LivingEvent|entityLiving
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2106|2115|isJumping|field|com.LongJumpMod.examplemod.LongJumpMod|isJumping
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2136|2153|accelerationTicks|field|com.LongJumpMod.examplemod.LongJumpMod|accelerationTicks
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2206|2230|baseHorizontalMultiplier|field|com.LongJumpMod.examplemod.LongJumpMod|baseHorizontalMultiplier
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2233|2242|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2243|2257|baseMultiplier|field|com.LongJumpMod.examplemod.ModConfig|baseMultiplier
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2261|2267|RANDOM|field|com.LongJumpMod.examplemod.LongJumpMod|RANDOM
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2268|2278|nextDouble|method|java.util.Random|nextDouble|()D
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2283|2292|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2293|2304|randomRange|field|com.LongJumpMod.examplemod.ModConfig|randomRange
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2323|2332|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2333|2353|enableVerticalRandom|field|com.LongJumpMod.examplemod.ModConfig|enableVerticalRandom
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2408|2414|RANDOM|field|com.LongJumpMod.examplemod.LongJumpMod|RANDOM
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2415|2425|nextDouble|method|java.util.Random|nextDouble|()D
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2465|2472|motionY|field|net.minecraft.entity.Entity|motionY
    Method End: onPlayerJump(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V
    Method Start: onPlayerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1594|1606|onPlayerTick|method|com.example.longjumpmod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1607|1632|TickEvent.PlayerTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1633|1638|event|param|com.example.longjumpmod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1654|1659|event|param|com.example.longjumpmod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1660|1665|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1669|1684|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1685|1690|START|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|START
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1694|1703|isJumping|field|com.example.longjumpmod.LongJumpMod|isJumping
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1719|1731|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1741|1746|event|param|com.example.longjumpmod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1747|1753|player|field|net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent|player
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1819|1827|onGround|field|net.minecraft.entity.Entity|onGround
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1831|1848|accelerationTicks|field|com.example.longjumpmod.LongJumpMod|accelerationTicks
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1934|1958|baseHorizontalMultiplier|field|com.example.longjumpmod.LongJumpMod|baseHorizontalMultiplier
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|1968|1985|accelerationTicks|field|com.example.longjumpmod.LongJumpMod|accelerationTicks
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2084|2088|Math|class|java.lang.Math
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2089|2098|toRadians|method|java.lang.Math|toRadians|(D)D
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2106|2117|rotationYaw|field|net.minecraft.entity.Entity|rotationYaw
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2154|2158|Math|class|java.lang.Math
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2159|2162|sin|method|java.lang.Math|sin|(D)D
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2228|2232|Math|class|java.lang.Math
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2233|2236|cos|method|java.lang.Math|cos|(D)D
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2343|2350|motionX|field|net.minecraft.entity.Entity|motionX
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2386|2393|motionZ|field|net.minecraft.entity.Entity|motionZ
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2439|2456|accelerationTicks|field|com.example.longjumpmod.LongJumpMod|accelerationTicks
-      @|com\LongJumpMod\examplemod\LongJumpMod.java|2497|2506|isJumping|field|com.example.longjumpmod.LongJumpMod|isJumping
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2563|2575|onPlayerTick|method|com.LongJumpMod.examplemod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2576|2601|TickEvent.PlayerTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2602|2607|event|param|com.LongJumpMod.examplemod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2623|2628|event|param|com.LongJumpMod.examplemod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2629|2634|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2638|2653|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2654|2659|START|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|START
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2663|2672|isJumping|field|com.LongJumpMod.examplemod.LongJumpMod|isJumping
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2688|2700|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2710|2715|event|param|com.LongJumpMod.examplemod.LongJumpMod|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|event|0
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2716|2722|player|field|net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent|player
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2773|2781|onGround|field|net.minecraft.entity.Entity|onGround
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2785|2802|accelerationTicks|field|com.LongJumpMod.examplemod.LongJumpMod|accelerationTicks
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2805|2814|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2815|2832|accelerationTicks|field|com.LongJumpMod.examplemod.ModConfig|accelerationTicks
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2913|2937|baseHorizontalMultiplier|field|com.LongJumpMod.examplemod.LongJumpMod|baseHorizontalMultiplier
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|2947|2964|accelerationTicks|field|com.LongJumpMod.examplemod.LongJumpMod|accelerationTicks
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3063|3067|Math|class|java.lang.Math
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3068|3077|toRadians|method|java.lang.Math|toRadians|(D)D
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3085|3096|rotationYaw|field|net.minecraft.entity.Entity|rotationYaw
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3133|3137|Math|class|java.lang.Math
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3138|3141|sin|method|java.lang.Math|sin|(D)D
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3207|3211|Math|class|java.lang.Math
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3212|3215|cos|method|java.lang.Math|cos|(D)D
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3322|3329|motionX|field|net.minecraft.entity.Entity|motionX
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3365|3372|motionZ|field|net.minecraft.entity.Entity|motionZ
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3418|3435|accelerationTicks|field|com.LongJumpMod.examplemod.LongJumpMod|accelerationTicks
+      @|com\LongJumpMod\examplemod\LongJumpMod.java|3476|3485|isJumping|field|com.LongJumpMod.examplemod.LongJumpMod|isJumping
    Method End: onPlayerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
-Class End  : com.example.longjumpmod.LongJumpMod
+Class End  : com.LongJumpMod.examplemod.LongJumpMod
 endProcessing com\LongJumpMod\examplemod\LongJumpMod.java
+
+processing com\LongJumpMod\examplemod\ModConfig.java
+@|com\LongJumpMod\examplemod\ModConfig.java|26|52|com.LongJumpMod.examplemod|package|com.LongJumpMod.examplemod|(file)
+Class Start: com.LongJumpMod.examplemod.ModConfig
+   @|com\LongJumpMod\examplemod\ModConfig.java|175|188|Configuration|class|net.minecraftforge.common.config.Configuration
+   @|com\LongJumpMod\examplemod\ModConfig.java|189|195|config|field|com.LongJumpMod.examplemod.ModConfig|config|
+   @|com\LongJumpMod\examplemod\ModConfig.java|240|254|baseMultiplier|field|com.LongJumpMod.examplemod.ModConfig|baseMultiplier|
+   @|com\LongJumpMod\examplemod\ModConfig.java|287|298|randomRange|field|com.LongJumpMod.examplemod.ModConfig|randomRange|
+   @|com\LongJumpMod\examplemod\ModConfig.java|328|345|accelerationTicks|field|com.LongJumpMod.examplemod.ModConfig|accelerationTicks|
+   @|com\LongJumpMod\examplemod\ModConfig.java|378|398|enableVerticalRandom|field|com.LongJumpMod.examplemod.ModConfig|enableVerticalRandom|
+   Method Start: init(Ljava/io/File;)V
+      @|com\LongJumpMod\examplemod\ModConfig.java|431|435|init|method|com.LongJumpMod.examplemod.ModConfig|init|(Ljava/io/File;)V
+      @|com\LongJumpMod\examplemod\ModConfig.java|436|440|File|class|java.io.File
+      @|com\LongJumpMod\examplemod\ModConfig.java|441|451|configFile|param|com.LongJumpMod.examplemod.ModConfig|init|(Ljava/io/File;)V|configFile|0
+      @|com\LongJumpMod\examplemod\ModConfig.java|463|469|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\ModConfig.java|476|489|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|com\LongJumpMod\examplemod\ModConfig.java|490|500|configFile|param|com.LongJumpMod.examplemod.ModConfig|init|(Ljava/io/File;)V|configFile|0
+      @|com\LongJumpMod\examplemod\ModConfig.java|511|521|loadConfig|method|com.LongJumpMod.examplemod.ModConfig|loadConfig|()V
+   Method End: init(Ljava/io/File;)V
+   Method Start: loadConfig()V
+      @|com\LongJumpMod\examplemod\ModConfig.java|555|565|loadConfig|method|com.LongJumpMod.examplemod.ModConfig|loadConfig|()V
+      @|com\LongJumpMod\examplemod\ModConfig.java|578|592|baseMultiplier|field|com.LongJumpMod.examplemod.ModConfig|baseMultiplier
+      @|com\LongJumpMod\examplemod\ModConfig.java|595|601|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\ModConfig.java|602|610|getFloat|method|net.minecraftforge.common.config.Configuration|getFloat|(Ljava/lang/String;Ljava/lang/String;FFFLjava/lang/String;)F
+      @|com\LongJumpMod\examplemod\ModConfig.java|678|689|randomRange|field|com.LongJumpMod.examplemod.ModConfig|randomRange
+      @|com\LongJumpMod\examplemod\ModConfig.java|692|698|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\ModConfig.java|699|707|getFloat|method|net.minecraftforge.common.config.Configuration|getFloat|(Ljava/lang/String;Ljava/lang/String;FFFLjava/lang/String;)F
+      @|com\LongJumpMod\examplemod\ModConfig.java|770|787|accelerationTicks|field|com.LongJumpMod.examplemod.ModConfig|accelerationTicks
+      @|com\LongJumpMod\examplemod\ModConfig.java|790|796|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\ModConfig.java|797|803|getInt|method|net.minecraftforge.common.config.Configuration|getInt|(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+      @|com\LongJumpMod\examplemod\ModConfig.java|873|893|enableVerticalRandom|field|com.LongJumpMod.examplemod.ModConfig|enableVerticalRandom
+      @|com\LongJumpMod\examplemod\ModConfig.java|896|902|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\ModConfig.java|903|913|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|com\LongJumpMod\examplemod\ModConfig.java|990|996|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\ModConfig.java|997|1007|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
+      @|com\LongJumpMod\examplemod\ModConfig.java|1025|1031|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\ModConfig.java|1032|1036|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: loadConfig()V
+Class End  : com.LongJumpMod.examplemod.ModConfig
+endProcessing com\LongJumpMod\examplemod\ModConfig.java
+
+processing com\LongJumpMod\examplemod\gui\ConfigGUI.java
+@|com\LongJumpMod\examplemod\gui\ConfigGUI.java|26|56|com.LongJumpMod.examplemod.gui|package|com.LongJumpMod.examplemod.gui|(file)
+Class Start: com.LongJumpMod.examplemod.gui.ConfigGUI
+   @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|391|413|BUTTON_BASE_MULTIPLIER|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_BASE_MULTIPLIER|
+   @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|448|467|BUTTON_RANDOM_RANGE|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_RANDOM_RANGE|
+   @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|502|520|BUTTON_ACCEL_TICKS|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_ACCEL_TICKS|
+   @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|555|577|BUTTON_VERTICAL_RANDOM|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_VERTICAL_RANDOM|
+   Method Start: initGui()V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|614|621|initGui|method|net.minecraft.client.gui.GuiScreen|initGui|()V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|639|649|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|650|655|clear|method|java.util.Collection|clear|()V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|692|702|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|703|706|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|711|720|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|721|743|BUTTON_BASE_MULTIPLIER|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_BASE_MULTIPLIER
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|745|750|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|797|803|String|class|java.lang.String
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|804|810|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|819|828|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|829|843|baseMultiplier|field|com.LongJumpMod.examplemod.ModConfig|baseMultiplier
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|861|871|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|872|875|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|880|889|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|890|909|BUTTON_RANDOM_RANGE|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_RANDOM_RANGE
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|911|916|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|962|968|String|class|java.lang.String
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|969|975|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|984|993|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|994|1005|randomRange|field|com.LongJumpMod.examplemod.ModConfig|randomRange
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1023|1033|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1034|1037|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1042|1051|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1052|1070|BUTTON_ACCEL_TICKS|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_ACCEL_TICKS
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1072|1077|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1124|1133|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1134|1151|accelerationTicks|field|com.LongJumpMod.examplemod.ModConfig|accelerationTicks
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1178|1188|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1189|1192|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1197|1206|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1207|1229|BUTTON_VERTICAL_RANDOM|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_VERTICAL_RANDOM
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1231|1236|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1284|1293|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1294|1314|enableVerticalRandom|field|com.LongJumpMod.examplemod.ModConfig|enableVerticalRandom
+   Method End: initGui()V
+   Method Start: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1373|1388|actionPerformed|method|net.minecraft.client.gui.GuiScreen|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1389|1398|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1399|1405|button|param|com.LongJumpMod.examplemod.gui.ConfigGUI|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1425|1431|button|param|com.LongJumpMod.examplemod.gui.ConfigGUI|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1432|1434|id|field|net.minecraft.client.gui.GuiButton|id
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1455|1477|BUTTON_BASE_MULTIPLIER|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_BASE_MULTIPLIER
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1495|1504|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1505|1519|baseMultiplier|field|com.LongJumpMod.examplemod.ModConfig|baseMultiplier
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1523|1532|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1533|1547|baseMultiplier|field|com.LongJumpMod.examplemod.ModConfig|baseMultiplier
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1564|1573|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1574|1588|baseMultiplier|field|com.LongJumpMod.examplemod.ModConfig|baseMultiplier
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1636|1655|BUTTON_RANDOM_RANGE|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_RANDOM_RANGE
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1673|1682|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1683|1694|randomRange|field|com.LongJumpMod.examplemod.ModConfig|randomRange
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1698|1707|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1708|1719|randomRange|field|com.LongJumpMod.examplemod.ModConfig|randomRange
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1736|1745|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1746|1757|randomRange|field|com.LongJumpMod.examplemod.ModConfig|randomRange
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1805|1823|BUTTON_ACCEL_TICKS|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_ACCEL_TICKS
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1841|1850|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1851|1868|accelerationTicks|field|com.LongJumpMod.examplemod.ModConfig|accelerationTicks
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1872|1881|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1882|1899|accelerationTicks|field|com.LongJumpMod.examplemod.ModConfig|accelerationTicks
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1913|1922|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1923|1940|accelerationTicks|field|com.LongJumpMod.examplemod.ModConfig|accelerationTicks
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|1986|2008|BUTTON_VERTICAL_RANDOM|field|com.LongJumpMod.examplemod.gui.ConfigGUI|BUTTON_VERTICAL_RANDOM
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2026|2035|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2036|2056|enableVerticalRandom|field|com.LongJumpMod.examplemod.ModConfig|enableVerticalRandom
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2060|2069|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2070|2090|enableVerticalRandom|field|com.LongJumpMod.examplemod.ModConfig|enableVerticalRandom
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2137|2146|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2147|2153|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2154|2164|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2182|2191|ModConfig|class|com.LongJumpMod.examplemod.ModConfig
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2192|2198|config|field|com.LongJumpMod.examplemod.ModConfig|config
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2199|2203|save|method|net.minecraftforge.common.config.Configuration|save|()V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2225|2232|initGui|method|net.minecraft.client.gui.GuiScreen|initGui|()V
+   Method End: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+   Method Start: drawScreen(IIF)V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2281|2291|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2296|2302|mouseX|param|com.LongJumpMod.examplemod.gui.ConfigGUI|drawScreen|(IIF)V|mouseX|0
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2308|2314|mouseY|param|com.LongJumpMod.examplemod.gui.ConfigGUI|drawScreen|(IIF)V|mouseY|1
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2322|2334|partialTicks|param|com.LongJumpMod.examplemod.gui.ConfigGUI|drawScreen|(IIF)V|partialTicks|2
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2351|2372|drawDefaultBackground|method|net.minecraft.client.gui.GuiScreen|drawDefaultBackground|()V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2390|2400|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2401|2407|mouseX|param|com.LongJumpMod.examplemod.gui.ConfigGUI|drawScreen|(IIF)V|mouseX|0
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2409|2415|mouseY|param|com.LongJumpMod.examplemod.gui.ConfigGUI|drawScreen|(IIF)V|mouseY|1
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2417|2429|partialTicks|param|com.LongJumpMod.examplemod.gui.ConfigGUI|drawScreen|(IIF)V|partialTicks|2
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2445|2463|drawCenteredString|method|net.minecraft.client.gui.Gui|drawCenteredString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2464|2479|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\LongJumpMod\examplemod\gui\ConfigGUI.java|2500|2505|width|field|net.minecraft.client.gui.GuiScreen|width
+   Method End: drawScreen(IIF)V
+Class End  : com.LongJumpMod.examplemod.gui.ConfigGUI
+endProcessing com\LongJumpMod\examplemod\gui\ConfigGUI.java
 

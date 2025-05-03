@@ -40,8 +40,8 @@ public class LongJumpMod {
     // 监听按键事件
     @SubscribeEvent
     public void onKeyInput(InputEvent.KeyInputEvent event) {
-        if (openGuiKey.isPressed()) {
-            Minecraft.getMinecraft().displayGuiScreen(new ConfigGUI());
+        if (openGuiKey.func_151468_f()) {
+            Minecraft.func_71410_x().func_147108_a(new ConfigGUI());
         }
     }
 
@@ -57,7 +57,7 @@ public class LongJumpMod {
             baseHorizontalMultiplier = ModConfig.baseMultiplier + (RANDOM.nextDouble() * ModConfig.randomRange);
             if (ModConfig.enableVerticalRandom) {
                 double verticalMultiplier = 1.0 + (RANDOM.nextDouble() - 0.5) * 0.2;
-                player.motionY *= verticalMultiplier;
+                player.field_70181_x *= verticalMultiplier;
             }
         }
     }
@@ -67,18 +67,18 @@ public class LongJumpMod {
         if (event.phase == TickEvent.Phase.START && isJumping) {
             EntityPlayer player = event.player;
             // 使用配置的加速时长
-            if (!player.onGround && accelerationTicks < ModConfig.accelerationTicks) {
+            if (!player.field_70122_E && accelerationTicks < ModConfig.accelerationTicks) {
                 // 动态计算当前加速倍率（递减）
                 double currentMultiplier = baseHorizontalMultiplier * (1.0 - accelerationTicks / 15.0);
                 
                 // 获取玩家实际移动方向（基于视角）
-                float yaw = (float) Math.toRadians(player.rotationYaw);
+                float yaw = (float) Math.toRadians(player.field_70177_z);
                 double motionX = -Math.sin(yaw) * 0.1 * currentMultiplier;
                 double motionZ = Math.cos(yaw) * 0.1 * currentMultiplier;
                 
                 // 应用速度（模拟自然移动输入）
-                player.motionX += motionX;
-                player.motionZ += motionZ;
+                player.field_70159_w += motionX;
+                player.field_70179_y += motionZ;
                 
                 accelerationTicks++;
             } else {

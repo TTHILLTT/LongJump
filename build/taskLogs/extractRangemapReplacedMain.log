@@ -1,3 +1,5 @@
 Symbol range map extraction starting
-Processing 1 files
+Processing 3 files
 processing com\LongJumpMod\examplemod\LongJumpMod.java
+processing com\LongJumpMod\examplemod\ModConfig.java
+processing com\LongJumpMod\examplemod\gui\ConfigGUI.java
