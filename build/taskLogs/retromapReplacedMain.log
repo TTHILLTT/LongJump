@@ -33397,12 +33397,29 @@ No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/registe
 [method, com/example/longjumpmod/LongJumpMod/onPlayerJump, (Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V]
 No rename for class net/minecraftforge/event/entity/living/LivingEvent/LivingJumpEvent
 No rename for field net/minecraftforge/event/entity/living/LivingEvent/entityLiving
-Rename class net/minecraft/entity/player/EntityPlayer[704,744]::net.minecraft.entity.player.EntityPlayer->net.minecraft.entity.player.EntityPlayer
-New Key: class net
+Rename class net/minecraft/entity/player/EntityPlayer[1060,1072]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[1088,1100]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[1111,1123]::EntityPlayer->EntityPlayer
 No rename for field net/minecraftforge/event/entity/living/LivingEvent/entityLiving
-Rename field net/minecraft/entity/Entity/motionX[866,873]::motionX->field_70159_w
-No rename for field net/minecraftforge/event/entity/living/LivingEvent/entityLiving
-Rename field net/minecraft/entity/Entity/motionZ[936,943]::motionZ->field_70179_y
+[method, java/util/Random/nextDouble, ()D]
+[method, java/util/Random/nextDouble, ()D]
+Rename field net/minecraft/entity/Entity/motionY[1510,1517]::motionY->field_70181_x
+[method, com/example/longjumpmod/LongJumpMod/onPlayerTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/PlayerTickEvent
+No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/Phase
+No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/START
+Rename class net/minecraft/entity/player/EntityPlayer[1725,1737]::EntityPlayer->EntityPlayer
+No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/PlayerTickEvent/player
+Rename field net/minecraft/entity/Entity/onGround[1825,1833]::onGround->field_70122_E
+[method, java/lang/Math/toRadians, (D)D]
+Rename field net/minecraft/entity/Entity/rotationYaw[2117,2128]::rotationYaw->field_70177_z
+[method, java/lang/Math/sin, (D)D]
+[method, java/lang/Math/cos, (D)D]
+Rename field net/minecraft/entity/Entity/motionX[2356,2363]::motionX->field_70159_w
+Rename field net/minecraft/entity/Entity/motionZ[2405,2412]::motionZ->field_70179_y
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.entity.player.EntityPlayer
 Adding 0 imports
 End  Processing: com\LongJumpMod\examplemod\LongJumpMod.java
 
