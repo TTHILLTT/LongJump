@@ -33388,38 +33388,115 @@ RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraf
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 1 -> p_i2158_2_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/storage/WorldInfo;)V 0 -> p_i2159_1_
 Start Processing: com\LongJumpMod\examplemod\LongJumpMod.java
-[method, com/example/longjumpmod/LongJumpMod/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
+Rename class net/minecraft/client/settings/KeyBinding[1301,1311]::KeyBinding->KeyBinding
+Rename class net/minecraft/client/settings/KeyBinding[1329,1339]::KeyBinding->KeyBinding
+[method, com/LongJumpMod/examplemod/LongJumpMod/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
 No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
 No rename for class net/minecraftforge/common/MinecraftForge
 No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
 [method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
 No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
-[method, com/example/longjumpmod/LongJumpMod/onPlayerJump, (Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V]
+No rename for class net/minecraftforge/fml/client/registry/ClientRegistry
+[method, net/minecraftforge/fml/client/registry/ClientRegistry/registerKeyBinding, (Lnet/minecraft/client/settings/KeyBinding;)V]
+No rename for method net/minecraftforge/fml/client/registry/ClientRegistry/registerKeyBinding (Lnet/minecraft/client/settings/KeyBinding;)V
+[method, com/LongJumpMod/examplemod/ModConfig/init, (Ljava/io/File;)V]
+[method, com/LongJumpMod/examplemod/LongJumpMod/onKeyInput, (Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/InputEvent/KeyInputEvent
+Rename method net/minecraft/client/settings/KeyBinding/isPressed ()Z[1766,1775]::isPressed->func_151468_f
+Rename class net/minecraft/client/Minecraft[1797,1806]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1807,1819]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[1822,1838]::displayGuiScreen->func_147108_a
+[method, com/LongJumpMod/examplemod/LongJumpMod/onPlayerJump, (Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V]
 No rename for class net/minecraftforge/event/entity/living/LivingEvent/LivingJumpEvent
 No rename for field net/minecraftforge/event/entity/living/LivingEvent/entityLiving
-Rename class net/minecraft/entity/player/EntityPlayer[1060,1072]::EntityPlayer->EntityPlayer
-Rename class net/minecraft/entity/player/EntityPlayer[1088,1100]::EntityPlayer->EntityPlayer
-Rename class net/minecraft/entity/player/EntityPlayer[1111,1123]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[2010,2022]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[2038,2050]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[2061,2073]::EntityPlayer->EntityPlayer
 No rename for field net/minecraftforge/event/entity/living/LivingEvent/entityLiving
 [method, java/util/Random/nextDouble, ()D]
 [method, java/util/Random/nextDouble, ()D]
-Rename field net/minecraft/entity/Entity/motionY[1510,1517]::motionY->field_70181_x
-[method, com/example/longjumpmod/LongJumpMod/onPlayerTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V]
+Rename field net/minecraft/entity/Entity/motionY[2466,2473]::motionY->field_70181_x
+[method, com/LongJumpMod/examplemod/LongJumpMod/onPlayerTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V]
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/PlayerTickEvent
 No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/Phase
 No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/START
-Rename class net/minecraft/entity/player/EntityPlayer[1725,1737]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[2695,2707]::EntityPlayer->EntityPlayer
 No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/PlayerTickEvent/player
-Rename field net/minecraft/entity/Entity/onGround[1825,1833]::onGround->field_70122_E
+Rename field net/minecraft/entity/Entity/onGround[2780,2788]::onGround->field_70122_E
 [method, java/lang/Math/toRadians, (D)D]
-Rename field net/minecraft/entity/Entity/rotationYaw[2117,2128]::rotationYaw->field_70177_z
+Rename field net/minecraft/entity/Entity/rotationYaw[3097,3108]::rotationYaw->field_70177_z
 [method, java/lang/Math/sin, (D)D]
 [method, java/lang/Math/cos, (D)D]
-Rename field net/minecraft/entity/Entity/motionX[2356,2363]::motionX->field_70159_w
-Rename field net/minecraft/entity/Entity/motionZ[2405,2412]::motionZ->field_70179_y
+Rename field net/minecraft/entity/Entity/motionX[3336,3343]::motionX->field_70159_w
+Rename field net/minecraft/entity/Entity/motionZ[3385,3392]::motionZ->field_70179_y
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.settings.KeyBinding
 Adding 0 imports
 End  Processing: com\LongJumpMod\examplemod\LongJumpMod.java
+
+Start Processing: com\LongJumpMod\examplemod\ModConfig.java
+Warning: com\LongJumpMod\examplemod\ModConfig.java has CRLF line endings; consider switching to LF
+No rename for class net/minecraftforge/common/config/Configuration
+[method, com/LongJumpMod/examplemod/ModConfig/init, (Ljava/io/File;)V]
+No rename for class net/minecraftforge/common/config/Configuration
+[method, com/LongJumpMod/examplemod/ModConfig/loadConfig, ()V]
+[method, com/LongJumpMod/examplemod/ModConfig/loadConfig, ()V]
+[method, net/minecraftforge/common/config/Configuration/getFloat, (Ljava/lang/String;Ljava/lang/String;FFFLjava/lang/String;)F]
+No rename for method net/minecraftforge/common/config/Configuration/getFloat (Ljava/lang/String;Ljava/lang/String;FFFLjava/lang/String;)F
+[method, net/minecraftforge/common/config/Configuration/getFloat, (Ljava/lang/String;Ljava/lang/String;FFFLjava/lang/String;)F]
+No rename for method net/minecraftforge/common/config/Configuration/getFloat (Ljava/lang/String;Ljava/lang/String;FFFLjava/lang/String;)F
+[method, net/minecraftforge/common/config/Configuration/getInt, (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I]
+No rename for method net/minecraftforge/common/config/Configuration/getInt (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+[method, net/minecraftforge/common/config/Configuration/getBoolean, (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z]
+No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+[method, net/minecraftforge/common/config/Configuration/hasChanged, ()Z]
+No rename for method net/minecraftforge/common/config/Configuration/hasChanged ()Z
+[method, net/minecraftforge/common/config/Configuration/save, ()V]
+No rename for method net/minecraftforge/common/config/Configuration/save ()V
+Adding 0 imports
+End  Processing: com\LongJumpMod\examplemod\ModConfig.java
+
+Start Processing: com\LongJumpMod\examplemod\gui\ConfigGUI.java
+Warning: com\LongJumpMod\examplemod\gui\ConfigGUI.java has CRLF line endings; consider switching to LF
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[614,621]::initGui->func_73866_w_
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[645,655]::buttonList->field_146292_n
+[method, java/util/Collection/clear, ()V]
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[702,712]::buttonList->field_146292_n
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+Rename class net/minecraft/client/gui/GuiButton[725,734]::GuiButton->GuiButton
+Rename field net/minecraft/client/gui/GuiScreen/width[759,764]::width->field_146294_l
+[method, java/lang/String/format, (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[884,894]::buttonList->field_146292_n
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+Rename class net/minecraft/client/gui/GuiButton[907,916]::GuiButton->GuiButton
+Rename field net/minecraft/client/gui/GuiScreen/width[938,943]::width->field_146294_l
+[method, java/lang/String/format, (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[1059,1069]::buttonList->field_146292_n
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+Rename class net/minecraft/client/gui/GuiButton[1082,1091]::GuiButton->GuiButton
+Rename field net/minecraft/client/gui/GuiScreen/width[1112,1117]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[1227,1237]::buttonList->field_146292_n
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+Rename class net/minecraft/client/gui/GuiButton[1250,1259]::GuiButton->GuiButton
+Rename field net/minecraft/client/gui/GuiScreen/width[1284,1289]::width->field_146294_l
+Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[1435,1450]::actionPerformed->func_146284_a
+Rename class net/minecraft/client/gui/GuiButton[1449,1458]::GuiButton->GuiButton
+Rename field net/minecraft/client/gui/GuiButton/id[1492,1494]::id->field_146127_k
+[method, net/minecraftforge/common/config/Configuration/hasChanged, ()Z]
+No rename for method net/minecraftforge/common/config/Configuration/hasChanged ()Z
+[method, net/minecraftforge/common/config/Configuration/save, ()V]
+No rename for method net/minecraftforge/common/config/Configuration/save ()V
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[2297,2304]::initGui->func_73866_w_
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[2359,2369]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[2431,2452]::drawDefaultBackground->func_146276_q_
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[2463,2473]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[2520,2538]::drawCenteredString->func_73732_a
+Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[2533,2548]::fontRendererObj->field_146289_q
+Rename field net/minecraft/client/gui/GuiScreen/width[2568,2573]::width->field_146294_l
+Import: net.minecraft.client.gui.GuiScreen
+Import: net.minecraft.client.gui.GuiButton
+Adding 0 imports
+End  Processing: com\LongJumpMod\examplemod\gui\ConfigGUI.java
 
